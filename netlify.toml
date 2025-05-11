@@ -1,0 +1,18 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20.0.0"
+  NPM_VERSION = "10.0.0"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[functions]
+  included_files = [".next/standalone/**"]
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
