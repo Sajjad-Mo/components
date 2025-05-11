@@ -24,7 +24,7 @@
     "date-fns": "^3.6.0",
     "jalaali-js": "^1.2.8",
     "lucide-react": "^0.507.0",
-    "next": "15.3.1",
+    "next": "14.1.0",
     "react": "18.2.0",
     "react-date-object": "^2.1.9",
     "react-day-picker": "^8.10.1",
@@ -41,7 +41,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "15.3.1",
+    "eslint-config-next": "14.1.0",
     "tailwindcss": "^4",
     "tw-animate-css": "^1.2.9",
     "typescript": "^5"
